@@ -1,7 +1,7 @@
 [
   {
     "name": "Shophive",
-    "search_url_pattern": "https://www.shophive.com/?s={QUERY}",
+    "search_url_pattern": "https://www.shophive.com/catalogsearch/result/?q={QUERY}",
     "result_selector": "a.product-item-link",
     "price_selector": ".price"
   },
