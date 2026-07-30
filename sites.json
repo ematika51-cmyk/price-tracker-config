@@ -1,13 +1,13 @@
 [
   {
     "name": "Shophive",
-    "search_url_pattern": "https://www.shophive.com/?s={{query}}",
+    "search_url_pattern": "https://www.shophive.com/?s={QUERY}",
     "result_selector": "a.product-item-link",
     "price_selector": ".price"
   },
   {
     "name": "Paklap",
-    "search_url_pattern": "https://www.paklap.pk/catalogsearch/result/?q={{query}}",
+    "search_url_pattern": "https://www.paklap.pk/catalogsearch/result/?q={QUERY}",
     "result_selector": "a.product-item-link",
     "price_selector": "span.price"
   }
